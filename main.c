@@ -105,6 +105,9 @@ void main(void){
     
     Check_Wheels();
     
+    
+    // State Machine for incoming IOT commands
+    
     switch(IOT_State){
     case RESET_STATE:
       Wheels_Off();
@@ -301,76 +304,7 @@ void main(void){
     }
     }
     
-    //    if(!(multcmd == YES)){
-    //      switch(IOT_State){
-    //      case RESET_STATE:
-    //        Wheels_Off();
-    //        break;
-    //      case FORWARD:
-    //        Wheels_Off();
-    //        Forward_Move();
-    //        if(long_timer >= intervaltime){
-    //          Wheels_Off();
-    //          long_timer = 0;
-    //          IOT_State = RESET_STATE;
-    //          break;
-    //        }
-    //      case REVERSE:
-    //        Wheels_Off();
-    //        Reverse_Move();
-    //        if(long_timer >= intervaltime){
-    //          Wheels_Off();
-    //          long_timer = 0;
-    //          IOT_State = RESET_STATE;
-    //          break;
-    //        }
-    //      default: break;
-    //
-    //    }
-    //    }
-    //       else{
-    //       switch(IOT_State){
-    //      case RESET_STATE:
-    //        Wheels_Off();
-    //        break;
-    //      case FORWARD:
-    //        Wheels_Off();
-    //        Forward_Move();
-    //        if(long_timer >= intervaltime){
-    //          Wheels_Off();
-    //          long_timer = 0;
-    //          IOT_State = RESET_STATE;
-    //          break;
-    //        }
-    //       }
-    //      switch(IOT_State2){
-    //      case RESET_STATE:
-    //        Wheels_Off();
-    //        break;
-    //      case FORWARD:
-    //        Wheels_Off();
-    //        Forward_Move();
-    //        if(long_timer >= intervaltime2){
-    //          Wheels_Off();
-    //          long_timer = 0;
-    //          IOT_State2 = RESET_STATE;
-    //          break;
-    //        }
-    //        case REVERSE:
-    //        Wheels_Off();
-    //        Reverse_Move();
-    //        if(long_timer >= intervaltime2){
-    //          Wheels_Off();
-    //          long_timer = 0;
-    //          IOT_State2 = RESET_STATE;
-    //          break;
-    //        }
-    //       }
-    //       }
-    //
-    //    
-    //    
-    //    
+    heels_Off();
     
     Display_Process();
   }
