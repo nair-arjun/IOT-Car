@@ -64,7 +64,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-A Semi-Autonomous car controlled by an onboard IOT controller and an MSP-430 microcontroller. The car uses onboard IR detectors and emitters to search for black lines under the car and upon detection follows the black line. The car can be controlled via a TCP/UDP server setup by the onboard IOT controller. This specific car makes use of custom Python script allowing the car to be controlled by either WASD controls on an external laptop or an Xbox controller connected to a laptop, this code can be viewed at.
+A Semi-Autonomous car controlled by an onboard IOT controller and an MSP-430 microcontroller. The car uses onboard IR detectors and emitters to search for black lines under the car and upon detection follows the black line. The car can be controlled via a TCP/UDP server setup by the onboard IOT controller. This specific car makes use of custom Python script allowing the car to be controlled by either WASD controls on an external laptop or an Xbox controller connected to a laptop, this code can be viewed at <a href="https://github.com/nair-arjun/IOT-Python-Script">this repo</a>.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
